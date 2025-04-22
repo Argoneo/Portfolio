@@ -180,5 +180,8 @@ footer .nav-link {
     .carouselSet img {
         max-width: 90%;
     }
+     #landingPage {
+        background-attachment: scroll;
+    }
 }
 
