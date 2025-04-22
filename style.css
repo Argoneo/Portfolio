@@ -1,0 +1,184 @@
+
+/* Landing Page */
+#landingPage {
+    display:flex;
+    flex-direction: column;
+    background-image: url(./socialDining.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+    width: 100%;
+}
+#navigationBar h1{
+    color: #F0F1C5 !important; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color: white !important;
+    color: #FFF7D1 !important; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+#mainContainer{
+    flex-direction: column;
+    height: 100vh !important;
+   
+}
+
+#navigationBar{
+    display:flex;
+    justify-content: space-around ;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centro verticale */
+    align-items: center;     /* centro orizzontale */
+    margin-top: 120px !important;
+}
+
+main h1{
+    font-size: 5rem;
+    color: #FFF7D1; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+main>p{
+    font-size: 2rem !important; 
+    color: #FFF7D1;   
+}
+
+#motto{
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+/* HERO */
+
+#heroDiv{
+    background-color:#99BC85 ;
+    margin-top: 0;
+    
+}
+#heroDiv h1{
+    color:black !important; 
+    font-weight: 600;
+    
+}
+
+#heroDiv p{
+    color:black!important; 
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+/* Carousel */
+
+#carouselContainer {
+    background-color: #000; /* nero */
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    
+}
+.carouselSet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.carouselSet img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;  
+}
+
+.carousel-inner{
+    background-color: #6D8B61
+}
+/* footer */
+hr{
+    background-color: #FFCC00 !important;
+    margin-top: 0;
+    margin-bottom:60px !important;
+    padding: 0;
+}
+.findUs{
+    background-color:#99BC85 !important;
+    width:100;
+    padding-top:70px;
+}
+
+footer{
+    width:auto;
+    
+}
+
+h5{
+    font-weight: 800 !important;
+}
+
+.infoLi{
+    color:#FFF7D1 !important;
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+}
+#rightsSocialDiv{
+display:flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: end;
+height:auto !important;
+margin-bottom: 25px;
+margin-top:30px ;
+}
+
+#finalText p{
+    margin-bottom:0px;
+}
+
+#social ul{
+    margin-bottom:0px !important;
+}
+
+#instagram,#facebook{
+    font-size: 1.5rem;
+}
+
+
+footer .nav-link {
+    font-weight: normal !important; /* equivalent to fw-normal */
+}
+
+
+/* Icona a sinistra del testo */
+#divForm .btn-subscribe i {
+    margin-right: 8px !important; /* spazio tra icona e testo */
+}
+
+
+@media (max-width: 768px) {
+    .carouselSet {
+        flex-direction: column;
+    }
+
+    .carouselSet img {
+        max-width: 90%;
+    }
+}
+
