@@ -213,13 +213,13 @@ input, select, textarea {
 		margin-top: 0;
 	}
 	#logo>span {
-		width:80px;
-		height: 80px;
+		width:60px;
+		height: 60px;
 		border-radius: 50%;
 	}
 	#logo>span img{
-		width:80px;
-		height: 80px;
+		width:60px;
+		height: 60px;
 		border-radius: 50%;
 	}
 	.image.fit img {
