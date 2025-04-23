@@ -16,11 +16,33 @@
             <header class="mb-auto">
                 <div id="navigationBar">
                     <h1 id="logo" class="float-md-start mb-0" alt="logo">Easy</h1>
-                    <nav class="nav nav-masthead justify-content-center float-md-end text-uppercase">
-                        <a class="nav-link fw-semibold py-1 px-2 active" aria-current="page" href="#">Menu</a>
-                        <a class="nav-link fw-semibold py-1 px-2" href="#">Wine</a>
-                        <a class="nav-link fw-semibold py-1 px-2" href="#">About</a>
-                    </nav>            </header>
+                    <nav class="navbar navbar-dark bg-transparent navbar-expand-md" id="navigationBar">
+                        <div class="container-fluid">
+                          <h1 id="logo" class="navbar-brand mb-0">Menu</h1>
+                      
+                          <!-- HAMBURGER PER MOBILE -->
+                          <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          
+                      
+                          <!-- OFFCANVAS PER MOBILE -->
+                          <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title">Easy</h5>
+                              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              <ul class="navbar-nav text-uppercase">
+                                <li><a class="nav-link active" href="#">Menu</a></li>
+                                <li><a class="nav-link" href="#">Wine</a></li>
+                                <li><a class="nav-link" href="#">About</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </nav>          
+            </header>
             
             <main class="px-3">
                 <h1>Social Dinner</h1>
