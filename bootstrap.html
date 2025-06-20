@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio/Bootstrap - Elvis Torregrossa</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<style>
+
+		.container{
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		#projectPresentation{
+			max-width: 700px;
+			text-align: center;
+			align-self: center !important;
+		}
+		#changeList {
+			list-style-position: inside !important;
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+			font-size: 20px;
+			text-align: justify;
+		}
+
+		#changeList li {
+			text-indent: -1em !important;
+			padding-left: 1em !important;
+			
+		}
+</style>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<div id="header">
+			<div class="top">
+				<!-- Logo -->
+				<div id="logo">
+					<span id="selfieImage">
+						<img id="selfie" src="./assets/images/PortfolioPicture.jpg" alt="Selfie" />
+					</span>
+					<div id="firstInfo">
+						<h1 id="title"><span>Elvis</span> Torregrossa</h1>
+						<p>Fullstack Web Developer</p>
+					</div>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="./index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+						<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-user">Project</span></a></li>
+						<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="bottom">
+				<!-- Social Icons -->
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/elvis-torregrossa/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Argoneo" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="mailto:elvisneo1@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
+					<header>
+						<h2 class="alt">
+							Using <strong>Bootstrap</strong>,<br />
+							to create a home-restaurant-social website <br />
+						</h2>
+						<p><br /></p>
+					</header>
+				</div>
+			</section>
+
+			<!-- Project -->
+			<section id="portfolio" class="two">
+				<div class="container">
+					<header>
+						<h2>Easy</h2>
+					</header>
+					<a href="#" class="image featured">
+						<img src="./assets/images/EasyWebsite.png" alt="" />
+					</a>
+
+					<section id="projectPresentation">
+						"Easy" is a website created for an imaginary home-based restaurant.<br>
+						The purpose was to demonstrate my knowledge of the <strong style="font-weight: 600;">Bootstrap</strong> framework by 
+						<em>customizing</em> parts of the code to make the site 
+						more user-friendly in terms of both UX and UI.<br><br>
+						<strong style="font-weight: 600;">Changes and customizations include:</strong> 
+						<ul id="changeList">
+							<li><strong style="font-weight: 600;">Used Bootstrap’s grid system</strong> and components to create a responsive and clean layout</li>
+							<li>Customized Bootstrap styles with my own <strong style="font-weight: 600;">CSS</strong> for colors, fonts, and spacing</li>
+							<li>Enhanced navigation bar with custom hover effects and smooth transitions</li>
+							<li>Implemented fixed background image with parallax effect for better visual appeal</li>
+							<li>Created custom <strong style="font-weight: 600;">media queries</strong> to hide elements on vertical shrink instead of resizing</li>
+							<li><strong style="font-weight: 600;">Added interactive buttons</strong> with hover animations and shadow effects</li>
+							<li><strong style="font-weight: 600;">Optimized carousel</strong> images with <strong style="font-weight: 600;">flexbox</strong> and object-fit for consistent aspect ratios</li>
+							<li>Structured footer with <strong style="font-weight: 600;">adaptive layout</strong> and input usability across devices</li>
+							<li>Maintained clean modular CSS separate from Bootstrap core files</li>
+						</ul>
+					</section>
+
+					<footer>
+						<a href="../Bootstrap/WebsiteBootstrap/index2.html" class="button scrolly">Go to the project</a>
+					</footer>
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section id="contact" class="three">
+				<h2>My contact</h2>
+				<dl class="alt">
+					<dt>Email</dt>
+					<dd><a href="mailto:neo2torre1@gmail.com">neo2torre1@gmail.com</a></dd>
+				</dl>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/elvis-torregrossa/" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Argoneo" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+			<p class="copyright">
+				© Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>. Demo Images: <a href="https://unsplash.com">Unsplash</a>.
+			</p>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<!-- Aggiungi uno script per lo scrolling fluido -->
+		<script>
+			$(document).ready(function() {
+				// Aggiungi il comportamento di scorrimento fluido per i link
+				$('a[href^="#"]').on('click', function(event) {
+					var target = $(this.getAttribute('href'));
+					if (target.length) {
+						event.preventDefault();
+						$('html, body').stop().animate({
+							scrollTop: target.offset().top
+						}, 1000);
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

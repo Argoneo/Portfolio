@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio/Bootstrap - Elvis Torregrossa</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<style>
+
+		.container{
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		#projectPresentation{
+			max-width: 700px;
+			text-align: center;
+			align-self: center !important;
+		}
+		#changeList {
+			list-style-position: inside !important;
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+			font-size: 20px;
+			text-align: justify;
+		}
+
+		#changeList li {
+			text-indent: -1em !important;
+			padding-left: 1em !important;
+			
+		}
+</style>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<div id="header">
+			<div class="top">
+				<!-- Logo -->
+				<div id="logo">
+					<span id="selfieImage">
+						<img id="selfie" src="./assets/images/PortfolioPicture.jpg" alt="Selfie" />
+					</span>
+					<div id="firstInfo">
+						<h1 id="title"><span>Elvis</span> Torregrossa</h1>
+						<p>Fullstack Web Developer</p>
+					</div>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="./index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+						<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-user">Project</span></a></li>
+						<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="bottom">
+				<!-- Social Icons -->
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/elvis-torregrossa/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Argoneo" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="mailto:elvisneo1@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
+					<header>
+						<h2 class="alt">
+							Build a fully <strong>responsive</strong> and visually engaging website <br> for a Modern Art Gallery,
+                            <br/>designed to <strong>adapt</strong> seamlessly <strong>across all devices</strong> <br>from smartphones to large desktops.
+                            
+						</h2>
+						<p><br /></p>
+					</header>
+				</div>
+			</section>
+
+			<!-- Project -->
+			<section id="portfolio" class="two">
+				<div class="container">
+					<header>
+						<h2>Art Gallery</h2>
+					</header>
+					<a href="#" class="image featured">
+						<img src="./assets/images/artgalleryPicture.png" alt="" />
+					</a>
+
+					<section id="projectPresentation">
+						<strong style="font-weight: 600;">Modern Art Gallery</strong> 
+                        is a fully responsive front-end website designed to deliver an elegant and immersive visual
+                         experience. The project showcases a striking landing page with a three-part layout—featuring
+                          black, white, and photographic sections—that introduces users to the world of modern art 
+                          through refined typography, high-resolution imagery, and a focused call-to-action. 
+                          A dedicated Location page offers interactive map details and address information, 
+                          styled consistently with the homepage. The entire site is crafted without the use of 
+                          any CSS frameworks, relying solely on Vanilla HTML, CSS, and a touch of JavaScript 
+                          to implement smooth UI interactions and layout responsiveness.
+						<br><br>
+						<strong style="font-weight: 600;">Tools & Technologies Used:</strong> 
+						<ul id="changeList">
+							<li>Structured with semantic <strong style="font-weight: 600;">HTML5</strong> for clean, accessible markup</li>
+							<li>Crafted a fully responsive layout using <strong style="font-weight: 600;">Vanilla CSS</strong> with <strong style="font-weight: 600;">Flexbox, Grid, and media queries</strong></li>
+							<li>Built an interactive call-to-action button using vanilla <strong style="font-weight: 600;">JavaScript </strong>for hover animations</li>
+							<li>Integrated multiple <strong style="font-weight: 600;">Google Fonts</strong> with preconnect for optimized font loading and rendering</li>
+							<li>Used retina-ready (@2x) imagery for high visual fidelity on modern displays</li>
+							<li>Designed <strong style="font-weight: 600;">entirely from scratch</strong> without any UI libraries or frameworks like Bootstrap or Tailwind</li>
+							<li>Implemented dark/light logo switching for visual consistency across different sections</li>
+							<li>Developed a separate Location page with flexible layout and mobile-optimized navigation, including a dynamic “Back to Home” button</li>
+							<li>Added a fully styled footer with accessible social media icons (SVG) and gallery info</li> 
+					
+						</ul>
+					</section>
+
+					<footer>
+						<a href="../HTML_CSS/art-gallery-website/starter-code/artgallery.html" class="button scrolly">Go to the project</a>
+					</footer>
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section id="contact" class="three">
+				<h2>My contact</h2>
+				<dl class="alt">
+					<dt>Email</dt>
+					<dd><a href="mailto:neo2torre1@gmail.com">neo2torre1@gmail.com</a></dd>
+				</dl>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/elvis-torregrossa/" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Argoneo" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+			<p class="copyright">
+				© Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>. Demo Images: <a href="https://unsplash.com">Unsplash</a>.
+			</p>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<!-- Aggiungi uno script per lo scrolling fluido -->
+		<script>
+			$(document).ready(function() {
+				// Aggiungi il comportamento di scorrimento fluido per i link
+				$('a[href^="#"]').on('click', function(event) {
+					var target = $(this.getAttribute('href'));
+					if (target.length) {
+						event.preventDefault();
+						$('html, body').stop().animate({
+							scrollTop: target.offset().top
+						}, 1000);
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

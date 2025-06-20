@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio/Bootstrap - Elvis Torregrossa</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<style>
+
+		.container{
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		#projectPresentation{
+			max-width: 700px;
+			text-align: center;
+			align-self: center !important;
+		}
+		#changeList {
+			list-style-position: inside !important;
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+			font-size: 20px;
+			text-align: justify;
+		}
+
+		#changeList li {
+			text-indent: -1em !important;
+			padding-left: 1em !important;
+			
+		}
+</style>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<div id="header">
+			<div class="top">
+				<!-- Logo -->
+				<div id="logo">
+					<span id="selfieImage">
+						<img id="selfie" src="./assets/images/PortfolioPicture.jpg" alt="Selfie" />
+					</span>
+					<div id="firstInfo">
+						<h1 id="title"><span>Elvis</span> Torregrossa</h1>
+						<p>Fullstack Web Developer</p>
+					</div>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="./index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+						<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-user">Project</span></a></li>
+						<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="bottom">
+				<!-- Social Icons -->
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/elvis-torregrossa/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Argoneo" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="mailto:elvisneo1@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
+					<header>
+						<h2 class="alt">
+							Connecting to a free <strong>API</strong>,<br />
+							to look up your favourite cocktails, <br>including recipes and ingredients  <br />
+						</h2>
+						<p><br /></p>
+					</header>
+				</div>
+			</section>
+
+			<!-- Project -->
+			<section id="portfolio" class="two">
+				<div class="container">
+					<header>
+						<h2>Make your Cocktail</h2>
+					</header>
+					<a href="#" class="image featured">
+						<img src="./assets/images/cocktail.png" alt="" />
+					</a>
+
+					<section id="projectPresentation">
+						<strong style="font-weight: 600;">Make Your Cocktail </strong>is a dynamic full-stack web application that empowers 
+						users to explore cocktail recipes either randomly or through a custom search. 
+						The project features responsive UI design crafted entirely with pure CSS, 
+						showcasing meticulous layout control and adaptability across devices. 
+						On the server side, EJS templates are used for dynamic rendering, 
+						while Axios handles API-driven data fetching from TheCocktailDB. 
+						This application demonstrates a clean architecture, 
+						interactive user experience, and effective integration of third-party 
+						APIs—without relying on any external CSS frameworks.
+						<br><br>
+						<strong style="font-weight: 600;">Tools & Technologies Used:</strong> 
+						<ul id="changeList">
+							<li>Built responsive layout entirely with Vanilla CSS using Flexbox, Grid, and media queries</li>
+							<li>Used <strong style="font-weight: 600;">EJS</strong> (Embedded JavaScript Templates) for server-side rendering of dynamic content</li>
+							<li>Styled custom scrollbars and UI components without any CSS libraries or frameworks</li>
+							<li>Created interactive buttons and hover animations using pure CSS transitions</li>
+							<li>Implemented parallax background effects and visual depth through layered styling</li>
+							<li>Crafted adaptive layout behaviors that respond to vertical shrinkage without distortion</li>
+							<li>Developed back-end with <strong style="font-weight: 600;">Node.js</strong> and <strong style="font-weight: 600;">Express.js</strong> for routing and server logic</li>
+							<li>Integrated <strong style="font-weight: 600;">Axios</strong> to fetch cocktail data asynchronously from external APIs</li>
+							<li>Used <strong style="font-weight: 600;">Body-Parser</strong> middleware to handle HTML form submissions and POST data</li>
+							<li>Fetched and rendered cocktail recipes using <strong style="font-weight: 600;">TheCocktailDB API</strong> via:
+								<ul>
+								<li><code>/random.php</code> – to fetch a random drink</li>
+								<li><code>/search.php?s=drinkName</code> – to search drinks by name</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+
+					<footer>
+						<a href="https://cocktail-maker-3.onrender.com" class="button scrolly">Go to the project</a>
+					</footer>
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section id="contact" class="three">
+				<h2>My contact</h2>
+				<dl class="alt">
+					<dt>Email</dt>
+					<dd><a href="mailto:neo2torre1@gmail.com">neo2torre1@gmail.com</a></dd>
+				</dl>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/elvis-torregrossa/" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Argoneo" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+			<p class="copyright">
+				© Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>. Demo Images: <a href="https://unsplash.com">Unsplash</a>.
+			</p>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<!-- Aggiungi uno script per lo scrolling fluido -->
+		<script>
+			$(document).ready(function() {
+				// Aggiungi il comportamento di scorrimento fluido per i link
+				$('a[href^="#"]').on('click', function(event) {
+					var target = $(this.getAttribute('href'));
+					if (target.length) {
+						event.preventDefault();
+						$('html, body').stop().animate({
+							scrollTop: target.offset().top
+						}, 1000);
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

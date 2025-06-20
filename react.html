@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio/Bootstrap - Elvis Torregrossa</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<style>
+
+		.container{
+			display:flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		#projectPresentation{
+			max-width: 700px;
+			text-align: center;
+			align-self: center !important;
+		}
+		#changeList {
+			list-style-position: inside !important;
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+			font-size: 20px;
+			text-align: justify;
+		}
+
+		#changeList li {
+			text-indent: -1em !important;
+			padding-left: 1em !important;
+			
+		}
+</style>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<div id="header">
+			<div class="top">
+				<!-- Logo -->
+				<div id="logo">
+					<span id="selfieImage">
+						<img id="selfie" src="./assets/images/PortfolioPicture.jpg" alt="Selfie" />
+					</span>
+					<div id="firstInfo">
+						<h1 id="title"><span>Elvis</span> Torregrossa</h1>
+						<p>Fullstack Web Developer</p>
+					</div>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="./index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+						<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-user">Project</span></a></li>
+						<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="bottom">
+				<!-- Social Icons -->
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/elvis-torregrossa/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Argoneo" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="mailto:elvisneo1@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
+					<header>
+						<h2 class="alt">
+							Build a modern single-page <strong>note-taking app</strong> with <strong>React</strong> and Material UI,
+							featuring animated input transitions, responsive design, and smooth user interactions
+							inspired by the <strong>simplicity of Google Keep</strong> .
+						</h2>
+						<p><br /></p>
+					</header>
+				</div>
+			</section>
+
+			<!-- Project -->
+			<section id="portfolio" class="two">
+				<div class="container">
+					<header>
+						<h2>Note-Book</h2>
+					</header>
+					<a href="#" class="image featured">
+						<img src="./assets/images/note-book.png" alt="" />
+					</a>
+
+					<section id="projectPresentation">
+						<strong style="font-weight: 600;">Note-Book App</strong> 
+                        is a dynamic, single-page note-taking application built with React and styled 
+						using both custom CSS and Material UI components. It allows users to create, view, 
+						and delete notes instantly in a clean, responsive layout. Designed with a focus on user 
+						interaction and component modularity, the app offers smooth animations, intuitive state handling, 
+						and a polished visual design that mimics the functionality of popular productivity tools like Google Keep.
+						<br><br>
+						<strong style="font-weight: 600;">Tools & Technologies Used:</strong> 
+						<ul id="changeList">
+							<li><strong style="font-weight: 600;">React</strong> for component-based architecture and interactive UI</li>
+							<li>Utilized <strong style="font-weight: 600;">React Hooks (useState)</strong> for state management of notes and UI behavior</li>
+							<li><strong style="font-weight: 600;">Material UI</strong> components and icons for floating buttons, transitions, and interaction feedback</li>
+							<li>Designed an expanding input interface using Zoom animation to <strong style="font-weight: 600;">enhance UX</strong></li>
+							<li><strong style="font-weight: 600;">Modularized code</strong> with clearly separated components: App, Note, Header, Footer, and CreateArea</li>
+							<li>Fully styled with <strong style="font-weight: 600;">Vanilla CSS </strong>for layout, color themes, and responsiveness</li>
+							<li><strong style="font-weight: 600;">Google Fonts</strong> integration (Montserrat, McLaren) for modern and playful typography</li>
+							<li>Responsive and accessible design: <strong style="font-weight: 600;">mobile-friendly</strong> note cards with floating delete buttons</li>
+							<li>Background texture applied via external pattern URL for subtle visual depth</li>
+							<li>Deployed as a static SPA — ready for Netlify, Render, Vercel, or GitHub Pages</li>
+
+
+ 
+					
+						</ul>
+					</section>
+
+					<footer>
+						<a href="../JS/SimonGameChallengeCompleted/simongame.html" class="button scrolly">Go to the project</a>
+					</footer>
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section id="contact" class="three">
+				<h2>My contact</h2>
+				<dl class="alt">
+					<dt>Email</dt>
+					<dd><a href="mailto:neo2torre1@gmail.com">neo2torre1@gmail.com</a></dd>
+				</dl>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/elvis-torregrossa/" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Argoneo" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+			<p class="copyright">
+				© Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>. Demo Images: <a href="https://unsplash.com">Unsplash</a>.
+			</p>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<!-- Aggiungi uno script per lo scrolling fluido -->
+		<script>
+			$(document).ready(function() {
+				// Aggiungi il comportamento di scorrimento fluido per i link
+				$('a[href^="#"]').on('click', function(event) {
+					var target = $(this.getAttribute('href'));
+					if (target.length) {
+						event.preventDefault();
+						$('html, body').stop().animate({
+							scrollTop: target.offset().top
+						}, 1000);
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
