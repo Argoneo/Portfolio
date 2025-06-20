@@ -113,9 +113,9 @@ input, select, textarea {
 
 	/* portfolio */
 
-	h3{
-		font-family: "Comic Sans MS", "Comic Sans", cursive;
-		font-weight: 900 !important;
+	h3 {
+  		font-family: 'Comic Neue', cursive;
+  		font-weight: 700;
 	}
 
 	#html{
