@@ -1,4 +1,4 @@
-Prologue by HTML5 UP
+ositoryPrologue by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
@@ -18,6 +18,8 @@ Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public 
 images you can use for pretty much whatever.
 
 (* = Not included)
+
+repository: https://argoneo.github.io/Portfolio/
 
 AJ
 aj@lkn.io | @ajlkn
